@@ -6,7 +6,7 @@ function SocialContact() {
   return <div className="social-contact">
     {data.map((item)=>{
       return(
-        <a href={item.link} target="_blank">
+        <a href={item.link} target="_blank" rel="noreferrer">
           <div className="social-icon-div">
             <img src={item.icon} className='social-icon'/>
           </div>
