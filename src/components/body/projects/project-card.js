@@ -7,7 +7,7 @@ function ProjectCard({project}) {
           <label className='project-title'>{project.title}</label>
           <div className='project-links'>
               {project.demo&& (
-              <a className='project-link' href={project.demo} target="_blank" data-tip="username-admin@gmail.com password-admin123">
+              <a className='project-link' href={project.demo} target="_blank" rel="noreferrer" data-tip="username-admin@gmail.com password-admin123">
                   <div className='link-button'>
                   <i class="fi fi-rr-globe"></i>Demo
                   <ReactTooltip effect="solid" backgroundColor='orange' textColor='black'/>
@@ -15,14 +15,14 @@ function ProjectCard({project}) {
                   </a>
                 )}
                 {project.frontend&& (
-                   <a className='project-link' href={project.frontend} target="_blank">
+                   <a className='project-link' href={project.frontend} target="_blank" rel="noreferrer">
                    <div className='link-button'>
                    <i class="devicon-react-original"></i>Frontend
                    </div>
                    </a> 
                 )}
                 {project.backend&&(
-                   <a className='project-link' href={project.backend} target="_blank">
+                   <a className='project-link' href={project.backend} target="_blank" rel="noreferrer">
                    <div className='link-button'>
                    <i class="devicon-nodejs-plain"></i>Backend
                    </div>
