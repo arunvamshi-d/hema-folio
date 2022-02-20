@@ -24,7 +24,7 @@ function Contact() {
             </div>
             </div>
                 <div className='download'>
-                    <a  className='download' href="https://drive.google.com/file/d/1rNlqdYp7vO-vspAz_CTTXrfgPWW3ngCy/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a  className='download' href="https://drive.google.com/file/d/1llv23ETMmM7NP8ekQgDKmTFp3le0vbCd/view?usp=sharing" target="_blank" rel="noreferrer">
                         My Resume </a>
                 </div>
         </div>
