@@ -1,6 +1,6 @@
 import React from 'react'
 import Separator from '../../common/separator'
-import SocialContact from '../../common/social-contact'
+// import SocialContact from '../../common/social-contact'
 import './contact.css'
 function Contact() {
   return (
